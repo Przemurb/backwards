@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<SplitPane fx:controller="pl.javastart.fxevent.controllers.mainPaneController"
+        dividerPositions="0.5" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" orientation="VERTICAL" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
+  <items>
+      <HBox>
+          <TextArea fx:id="textArea1"/>
+          <TextArea fx:id="textArea2" layoutX="10.0" layoutY="10.0"/>
+      </HBox>
+      <Button fx:id="clearButton" maxWidth="1.7976931348623157E308" mnemonicParsing="false" text="Wyczyść tekst" />
+  </items>
+</SplitPane>
